@@ -29,9 +29,9 @@ class MyRoutes{
     //    builder: (BuildContext context) =>  OnBordingPage(firstname: data[0] as String ,lastname: data[1] as String ),
     //  );
     
-       MaterialPageRoute<dynamic>(
-        builder: (BuildContext context) => const OnBordingPage(),
-      ),
+      //  MaterialPageRoute<dynamic>(
+      //   builder: (BuildContext context) => const OnBordingPage(),
+      // ),
  MaterialPageRoute<dynamic>(
         builder: (BuildContext context) => const RegistrationPage(),
       ),
